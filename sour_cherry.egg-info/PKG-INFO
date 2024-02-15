@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: cherry-pie
-Version: 1.0.4
+Name: sour-cherry
+Version: 1.0.6
 Summary: A CLI tool to build essentials for FastAPI development.
 Author-email: Yony Kibiwot <limzyon@gmail.com>
 Project-URL: Homepage, https://github.com/CheruiyotLimo/project-cherry
@@ -10,6 +10,7 @@ Classifier: Operating System :: OS Independent
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: click
 
 # Cherry
 This is a Python based CLI tool to create essentials for FastAPI backend development.

@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='cherry',
-    version='1.0.1',
+    name='sour-cherry',
+    version='1.0.4',
     packages = find_packages(),
     include_package_data=True,
     install_requires=[
@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'cherry=cherrypie:cherrypie'
+            'cherry=src.cherry.cherrypie:cherrypie'
         ],
     },
 )

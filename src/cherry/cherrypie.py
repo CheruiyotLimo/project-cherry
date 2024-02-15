@@ -1,5 +1,5 @@
 import click, os
-from source import virtual, folders, files
+from .source import virtual, folders, files
 
 @click.group()
 def cherrypie():
